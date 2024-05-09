@@ -1,0 +1,28 @@
+body{
+    background-color: #3C486B;
+    color: #F0F0F0;
+}
+h1{
+    font-family: "SF Pro Display", serif;
+}
+#green-div{
+    height: 400px;
+    width: 1200px;
+    background-color: #008751;
+    position: relative;
+}
+#green-div > #red-div{
+    height: 200px;
+    width: 800px;
+    background-color: #E8112D;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+#green-div >#yellow-div{
+    height: 200px;
+    width: 800px;
+    background-color: #FCD116;
+    position: absolute;
+    left: 400px;
+}
